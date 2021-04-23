@@ -7,3 +7,5 @@
 # Wechat-App-Dyschooia-Helper
 
 This is the Wechat-App version of Dyschooia-Helper, Features detailed in repository [Dyschooia-Helper](https://github.com/DesWudio/Dyschooia-Helper).
+
+When importing the project, please replace the appid with yours. It is located in 'project.config.json' at line 19.
