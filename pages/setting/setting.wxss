@@ -1,0 +1,39 @@
+page {  
+  background: #f7f7f7;
+}
+.backbutton {
+  position:fixed;
+  top:2vh;
+  left:2vh;
+  width:64px;
+  height:64px;
+  display:flex;
+}
+.backbutton image {
+  width:64px;
+  height:64px;
+}
+
+.title{
+  margin-top: 4.5vh;
+  margin-left: 4vh;
+  font-family: Microsoft YaHei;
+  text-align: center;
+  font-size: 20px;
+}
+
+.label-1{
+  text-indent:2em;
+  font-size: 16px;
+  margin: 7vh 0rpx 20rpx 10rpx;
+}
+
+.wait{
+  margin-top:100rpx;
+  display:flex;
+  justify-content: center;
+}
+.wait image{
+  height:300px;
+  width:300px;
+}

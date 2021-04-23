@@ -1,0 +1,15 @@
+<view class='main'>
+  <view class="backbutton" hover-class="plus-hover" bindtap="gotomaingpage">
+    <image src="/pages/img/back.png"></image>
+  </view>
+  <view class="title">自定义选项</view>
+  <view class="label-1" wx:for="{{labelvalue}}">
+    <label>
+      <text>{{item.line1}}</text>
+      <text>{{item.line2}}</text>
+    </label>
+  </view>
+  <view class="wait">
+    <image src="/pages/img/pleasewait.png"></image>
+  </view>
+</view>
