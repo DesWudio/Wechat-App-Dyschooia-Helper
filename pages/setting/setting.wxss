@@ -1,20 +1,22 @@
-page {  
+page {
   background: #f7f7f7;
 }
+
 .backbutton {
-  position:fixed;
-  top:2vh;
-  left:2vh;
-  width:64px;
-  height:64px;
-  display:flex;
-}
-.backbutton image {
-  width:64px;
-  height:64px;
+  position: fixed;
+  top: 2vh;
+  left: 2vh;
+  width: 64px;
+  height: 64px;
+  display: flex;
 }
 
-.title{
+.backbutton image {
+  width: 64px;
+  height: 64px;
+}
+
+.title {
   margin-top: 4.5vh;
   margin-left: 4vh;
   font-family: Microsoft YaHei;
@@ -22,18 +24,43 @@ page {
   font-size: 20px;
 }
 
-.label-1{
-  text-indent:2em;
+.label-1 {
+  text-indent: 2em;
   font-size: 16px;
-  margin: 7vh 0rpx 20rpx 10rpx;
+  margin: 4vh 0rpx 20rpx 10rpx;
+  padding: 10px;
 }
 
-.wait{
-  margin-top:100rpx;
-  display:flex;
+.itemslist {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.button_confirm {
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
+  color: white;
+  border-radius: 98rpx;
+  font-size: 20px;
+  margin-top: 2vh;
+}
+
+.label-2 {
+  text-indent: 2em;
+  font-size: 16px;
+  margin: 1vh 0rpx 20rpx 10rpx;
+  padding: 10px;
+}
+
+.wait {
+  /* margin-top:50rpx; */
+  display: flex;
   justify-content: center;
 }
-.wait image{
-  height:300px;
-  width:300px;
+
+.wait image {
+  height: 300px;
+  width: 300px;
 }
