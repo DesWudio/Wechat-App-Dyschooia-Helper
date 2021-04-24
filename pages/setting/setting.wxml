@@ -5,8 +5,18 @@
   <view class="title">自定义选项</view>
   <view class="label-1" wx:for="{{labelvalue}}">
     <label>
-      <text>{{item.line1}}</text>
-      <text>{{item.line2}}</text>
+      <text>{{item.custom}}</text>
+    </label>
+  </view>
+  <view class="itemslist">
+    <textarea bindinput='getinputitems' type="text" value="{{itemslist}}" style="border:0;border-radius:5px;background-color:rgba(221,221,221,.98);width: 90%;height: 20vh;padding: 10px;resize: none;" />
+  </view>
+  <button class='button_confirm' bindtap="confirm">
+    <view>更新选项</view>
+  </button>
+  <view class="label-2" wx:for="{{labelvalue}}">
+    <label>
+      <text>{{item.line3}}</text>
     </label>
   </view>
   <view class="wait">
