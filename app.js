@@ -2,16 +2,24 @@
 App({
   onLaunch() {
     // 展示本地存储能力
-    const logs = wx.getStorageSync('logs') || []
-    logs.unshift(Date.now())
-    wx.setStorageSync('logs', logs)
+    wx.getStorage({
+        key: 'items',
+        success: res => {
+          console.log("items already here")
+        },
+        fail: err => {
+          wx.setStorage({
+            key: 'items',
+            data: "麻辣烫，麻辣拌，鸡公煲，渤海，打卤面，辣子鸡，羊汤，二小，食堂，食堂，食堂，食堂"
+          })
+          console.log("items formated")
+        }
+      }),
 
-    // 登录
-    wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
-      }
-    })
+      wx.login({
+        success: res => {
+        }
+      })
   },
   globalData: {
     userInfo: null
