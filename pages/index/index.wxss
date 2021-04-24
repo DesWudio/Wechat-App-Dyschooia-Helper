@@ -9,7 +9,7 @@ page {
   font-size: 38px;
 }
 
-.input {
+.conclu .input {
   margin-top: 5vh;
   text-align: center;
   font-size: 80px;
@@ -32,14 +32,15 @@ page {
 }
 
 .setbutton {
-  position:fixed;
-  top:2vh;
-  left:2vh;
-  display:flex;
-  width:64px;
-  height:64px;
+  position: fixed;
+  top: 2vh;
+  left: 2vh;
+  display: flex;
+  width: 64px;
+  height: 64px;
 }
+
 .setbutton image {
-  width:64px;
-  height:64px;
+  width: 64px;
+  height: 64px;
 }
