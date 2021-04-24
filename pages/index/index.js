@@ -12,7 +12,8 @@ Page({
 
   b1: function() {
     var that = this
-    var items = ['麻辣烫', '麻辣拌', '鸡公煲', '渤海', '打卤面', '辣子鸡', '羊汤', '二小', '食堂', '食堂', '食堂', '食堂'];
+    var arr = wx.getStorageSync("items") || [];
+    var items = arr.split(/,|，/);
     var randomItem = items[Math.floor(Math.random() * items.length)];
     console.log(randomItem);
     this.setData({
