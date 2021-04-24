@@ -1,6 +1,12 @@
 <view class='main'>
   <view class='title'>今天晚上吃：</view>
-  <input class="input" value="{{inputTxt}}"disabled="true"/>
-  <button class='btn1' bindtap="b1"><view>点我选择</view></button>
-  <view class="setbutton" hover-class="plus-hover" bindtap="gotosettingpage"><image src="/pages/img/set.png"></image></view>
+  <view class="conclu">
+    <input class="input" value="{{inputTxt}}" disabled="true" />
+  </view>
+  <button class='btn1' bindtap="b1">
+    <view>点我选择</view>
+  </button>
+  <view class="setbutton" hover-class="plus-hover" bindtap="gotosettingpage">
+    <image src="/pages/img/set.png"></image>
+  </view>
 </view>
