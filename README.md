@@ -4,7 +4,7 @@
 
 在导入项目时请记得将appid修改为自己的，修改位置在project.config.json第19行。
 
-![preview](https://github.com/DesWudio/Wechat-App-Dyschooia-Helper/blob/main/pages/img/img.gif)
+![preview](https://raw.githubusercontent.com/DesWudio/Wechat-App-Dyschooia-Helper/main/pages/img/img.gif)
 
 # Wechat-App-Dyschooia-Helper
 
@@ -12,4 +12,4 @@ This is the Wechat-App version of Dyschooia-Helper, Features detailed in reposit
 
 When importing the project, please replace the appid with yours. It is located in 'project.config.json' at line 19.
 
-![preview](https://github.com/DesWudio/Wechat-App-Dyschooia-Helper/blob/main/pages/img/img.gif)
+![preview](https://raw.githubusercontent.com/DesWudio/Wechat-App-Dyschooia-Helper/main/pages/img/img.gif)
